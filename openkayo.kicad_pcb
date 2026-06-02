@@ -172,6 +172,9 @@
 	(net 87 "Net-(VR1-RT{slash}SYNC)")
 	(net 88 "unconnected-(VR1-PG-Pad6)")
 	(net 89 "unconnected-(VR2-NC-Pad4)")
+	(net 90 "unconnected-(J10-SHIELD-PadS1)_1")
+	(net 91 "unconnected-(J10-SHIELD-PadS1)_2")
+	(net 92 "unconnected-(J10-SHIELD-PadS1)_3")
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "071fa4f2-2eca-431a-b359-fd0a4b7e1e44")
@@ -200,7 +203,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -212,7 +215,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -224,8 +227,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/88c57d14-b9b2-4927-88b3-13cf3821129f")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -398,7 +402,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -410,7 +414,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -422,8 +426,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/72afbcb1-f150-435a-a1a8-8b60a297c684")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -596,7 +601,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -608,7 +613,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -620,8 +625,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/91f1c48d-d1f8-483c-8b21-46cd79bf1fc8")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -794,7 +800,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/2051466.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -806,7 +812,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -818,8 +824,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*Fuse*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/d81a9d2e-e569-473a-8afb-67868b468b8a")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -992,7 +999,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1004,7 +1011,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1016,8 +1023,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/d475413f-75a6-4e4e-9ba8-27e082d28849")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1190,7 +1198,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1202,7 +1210,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1214,8 +1222,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/d5835c5f-11ce-4bf4-ab55-1697c7beda96")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1619,7 +1628,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1631,7 +1640,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1643,8 +1652,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/65d79fd3-0a89-4995-a8c7-6afc671dd185")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1817,7 +1827,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1829,7 +1839,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -1841,8 +1851,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/be98d01f-f476-453a-98fc-0a86dc29f80a")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2015,7 +2026,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2027,7 +2038,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2051,7 +2062,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/e683aa76-b33d-4444-bbea-fd8779394a71")
+		(sheetname "/")
 		(sheetfile "openkayo.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -2124,7 +2137,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2136,7 +2149,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2148,8 +2161,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/04d089d6-9c16-4867-b682-6a55c6db898c")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -2760,7 +2774,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/2051466.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2772,7 +2786,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2784,8 +2798,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*Fuse*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/338df86c-7872-4618-a07b-e086a5d53716")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2958,7 +2973,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.farnell.com/datasheets/2051466.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2970,7 +2985,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2982,8 +2997,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*Fuse*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/f096f3b1-bd2e-4478-9d12-d51721f94bf2")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3156,7 +3172,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3168,7 +3184,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3180,8 +3196,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/8667aaa1-afb2-4be8-8279-bd57c42b7b40")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3354,7 +3371,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3366,7 +3383,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -3378,8 +3395,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/36ffc0ab-c031-44d2-b7f5-536e1240fa1a")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3552,7 +3570,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3564,7 +3582,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3576,8 +3594,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/cae15285-41e7-4ce4-8a40-65998bdffc87")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -3750,7 +3769,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3762,7 +3781,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3774,7 +3793,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/b97d0d9b-4165-4047-9d9d-d975fb700e1d")
+		(sheetname "/")
 		(sheetfile "openkayo.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -3847,7 +3868,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3859,7 +3880,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3871,8 +3892,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/4e0c19f4-a33e-42d5-9292-eb93bf6c799a")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4045,7 +4067,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4057,7 +4079,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4069,8 +4091,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/3dfab780-fdda-44c9-a6a6-4ac3b3cbe485")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4243,7 +4266,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4255,7 +4278,7 @@
 				)
 			)
 		)
-		(property "Description" "Bidirectional dual transient-voltage-suppression diode, center on pin 3"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4268,7 +4291,7 @@
 			)
 		)
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/92156ae4-259b-415b-809c-32ab3e8e3056")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4483,7 +4506,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4495,7 +4518,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -4507,8 +4530,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/4bac6fef-25fa-408e-9ec5-60cabf3a54c6")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4681,7 +4705,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4693,7 +4717,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4705,8 +4729,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/85e6771d-4b0c-4b2b-9a75-3130016b39bf")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -4879,7 +4904,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4891,7 +4916,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -4903,8 +4928,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/d526d3ae-e7c0-419c-af0b-3328e342fe67")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5077,7 +5103,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5089,7 +5115,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -5125,8 +5151,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/cb41c152-c11e-4e37-be42-633a07170342")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5371,7 +5398,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5383,7 +5410,7 @@
 				)
 			)
 		)
-		(property "Description" "Voltage dependent resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5467,8 +5494,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "RV_* Varistor*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/a62e4f67-6782-4439-86c1-db6f4d36b630")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5641,7 +5669,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5653,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5665,8 +5693,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/78e5ae1d-d042-45b1-b0b3-b7f3cdaea610")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -5818,7 +5847,7 @@
 		(descr "Texas Instruments HSOP 9, 1.27mm pitch, 3.9x4.9mm body, exposed pad, thermal vias, DDA0008J (http://www.ti.com/lit/ds/symlink/tps5430.pdf)")
 		(tags "HSOP 1.27")
 		(property "Reference" "VR1"
-			(at 4.565 -0.015 180)
+			(at 4.565 -0.015 0)
 			(layer "F.SilkS")
 			(uuid "2472c7f7-64b2-4869-83d7-e300f0990f94")
 			(effects
@@ -5840,7 +5869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "b1587481-cd42-47b1-b32f-98a840eb46c3")
@@ -5852,7 +5881,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 270)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6dc47710-ad42-4cd6-8638-9d314b083dec")
@@ -5863,8 +5892,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Texas*HSOP*1EP*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/3cb60d32-a26b-4a86-9693-3528b62cad2b")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -6229,7 +6259,7 @@
 			(uuid "b96c5fc4-68c6-441e-81d2-ddab068fd503")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_Pitch1.27mm.wrl"
+		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/HTSOP-8-1EP_3.9x4.9mm_P1.27mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6269,7 +6299,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tusb2036.pdf"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -6294,7 +6324,7 @@
 			)
 		)
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/c046ae25-6c51-4f96-a009-f9a3052b7c8a")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7049,7 +7079,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7061,7 +7091,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -7073,8 +7103,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/b852f8ab-659e-4393-832c-2f4d1b416526")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7247,7 +7278,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7259,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Description" "Schottky diode"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -7295,8 +7326,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/99d3b8a8-67b5-453b-97a8-442e73ee3cc8")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7553,7 +7585,7 @@
 				)
 			)
 		)
-		(property "Description" "CMOS SMD Crystal Clock Oscillator, TXC"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7565,8 +7597,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Oscillator*SMD*TXC*7C*5.0x3.2mm*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/f3633719-95a9-4d44-9445-9c2eef0f753c")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7801,7 +7834,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7813,7 +7846,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -7825,8 +7858,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/c43766d4-12ef-40ba-aae8-ced0882fe74a")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -7999,7 +8033,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8011,7 +8045,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8023,8 +8057,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/03fb018e-3595-40dc-a601-9a0d0071ed52")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8197,7 +8232,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8209,7 +8244,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8221,8 +8256,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/64a59eda-880b-4917-b0eb-ea7ed2759c30")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8395,7 +8431,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8407,7 +8443,7 @@
 				)
 			)
 		)
-		(property "Description" "USB 2.0-only Type-C Receptacle connector"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -8419,8 +8455,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*C*Receptacle*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/716a7126-70a8-48bf-87fe-928434fa8bf3")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -8777,7 +8814,7 @@
 			(drill oval 0.5 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "unconnected-(J10-SHIELD-PadS1)")
+			(net 92 "unconnected-(J10-SHIELD-PadS1)_3")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(uuid "a976ad87-f9a7-44ef-a9c0-452891b8626a")
@@ -8788,7 +8825,7 @@
 			(drill oval 0.5 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "unconnected-(J10-SHIELD-PadS1)")
+			(net 91 "unconnected-(J10-SHIELD-PadS1)_2")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(uuid "5b031d84-e30b-4589-886f-162fc1982d29")
@@ -8799,7 +8836,7 @@
 			(drill oval 0.5 1.1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 56 "unconnected-(J10-SHIELD-PadS1)")
+			(net 90 "unconnected-(J10-SHIELD-PadS1)_1")
 			(pinfunction "SHIELD")
 			(pintype "passive+no_connect")
 			(uuid "55412892-4e72-4d7d-8160-da00ea484535")
@@ -8845,7 +8882,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8857,7 +8894,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -8870,7 +8907,7 @@
 			)
 		)
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/a3e43f57-12d1-4497-873e-79b5c9fd8460")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9412,7 +9449,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9424,7 +9461,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9436,7 +9473,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/580aee73-a17b-4fd0-bb83-140b4451ab0c")
+		(sheetname "/")
 		(sheetfile "openkayo.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -9509,7 +9548,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9521,7 +9560,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9533,8 +9572,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/f6ab39ec-afcd-4a62-a5e2-cf52cc941a82")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -9707,7 +9747,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9719,7 +9759,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -9731,8 +9771,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/0569e6d9-0b79-4581-8748-9f614b0d1bfc")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -10689,7 +10730,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10701,7 +10742,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -10713,8 +10754,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/1e6d339f-1d70-4a09-a65e-5fbd5e9ccdaf")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -10887,7 +10929,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10899,7 +10941,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10911,8 +10953,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/9ced2983-2151-43dd-bc38-f3fda38921af")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11085,7 +11128,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2112.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11097,7 +11140,7 @@
 				)
 			)
 		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11109,8 +11152,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23?5*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/81c57ac8-2e33-4edd-b5e8-fe7a0591c456")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11345,7 +11389,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11357,7 +11401,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -11369,8 +11413,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/92ee3a38-3e69-42e3-bb02-e0b7e1a68500")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11543,7 +11588,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11555,7 +11600,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11567,8 +11612,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/6a816753-9dc3-459d-8e5c-149cfe590c0b")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11741,7 +11787,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11753,7 +11799,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11765,8 +11811,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/27ef6a5e-a89a-46fb-89e9-025be6da1ed3")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -11939,7 +11986,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11951,7 +11998,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -11963,8 +12010,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/b9c96e5a-7913-4e29-913e-3fb56abbccb0")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12137,7 +12185,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12149,7 +12197,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -12161,8 +12209,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/a7af2e2a-4d05-4237-bdef-293f93ea88f0")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12335,7 +12384,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12347,7 +12396,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -12359,8 +12408,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/2bc6d24c-b0a6-4674-852f-5c41642ec128")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -12764,7 +12814,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" " ~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12776,7 +12826,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Type A connector"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -12788,8 +12838,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/809e3744-ef8f-4f83-97fc-adb1174ff101")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13090,7 +13141,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" " ~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13102,7 +13153,7 @@
 				)
 			)
 		)
-		(property "Description" "USB Type A connector"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13114,8 +13165,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "USB*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/eba6f613-9304-4c15-9855-96b737001a86")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -13418,7 +13470,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://product.tdk.com/en/search/inductor/inductor/smd/info?part_no=VLS5045EX-150M"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13430,7 +13482,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13442,8 +13494,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/89498d0a-c3ba-42ca-9ef2-ecc6b27026c0")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -13601,7 +13654,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13613,7 +13666,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -13625,8 +13678,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/a4bbe5dd-c0cd-4fe9-8d5e-6ed8eb9628df")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14410,7 +14464,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14422,7 +14476,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -14434,8 +14488,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/5abbe452-a2cc-4afc-8a49-37bef494c1c3")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14608,7 +14663,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14620,7 +14675,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14632,8 +14687,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/f89d24fd-f3a4-4a93-a5d3-98aa359c5631")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -14860,7 +14916,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14872,7 +14928,7 @@
 				)
 			)
 		)
-		(property "Description" "Mounting Hole without connection"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14884,7 +14940,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "MountingHole*")
 		(path "/23466647-d86a-4293-bb33-3762a392d569")
+		(sheetname "/")
 		(sheetfile "openkayo.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
@@ -14957,7 +15015,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14969,7 +15027,7 @@
 				)
 			)
 		)
-		(property "Description" "2.4 GHz WiFi (802.11 b/g/n) and Bluetooth ® 5 (LE) module Built around ESP32S3 series of SoCs, Xtensa ® dualcore 32bit LX7 microprocessor Flash up to 16 MB, PSRAM up to 8 MB 36 GPIOs, rich set of peripherals Onboard PCB antenna"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14982,7 +15040,7 @@
 			)
 		)
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/c0ea1105-a1bd-4fe5-8a66-237edf1d5bad")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -14993,7 +15051,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "521be385-f0f7-4c29-aa76-3bc9aadee2fd")
+			(uuid "d2d95631-acfa-499c-a617-fbdf30cb9f58")
 		)
 		(fp_line
 			(start -9 -15.75)
@@ -15003,7 +15061,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "34904895-ca03-48ce-abde-7e5e726130a9")
+			(uuid "f73d7be6-fe68-4b4a-9939-c782776f77ef")
 		)
 		(fp_line
 			(start -9 9)
@@ -15013,7 +15071,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "c25e6288-ebf8-43e2-b807-cb2da0abf9e3")
+			(uuid "188d4011-a244-4e1f-a1eb-41a477820aa2")
 		)
 		(fp_line
 			(start -9 9.75)
@@ -15023,7 +15081,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c137398-9867-4760-a534-f24de57e9354")
+			(uuid "cffad461-70e3-4be2-a582-68fdca5077c2")
 		)
 		(fp_line
 			(start 9 -15.75)
@@ -15033,7 +15091,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a0b68890-a54c-478c-bc00-40563ca3cd58")
+			(uuid "7d98009d-12b8-4cac-9989-617ece477e3b")
 		)
 		(fp_line
 			(start 9 -9.81)
@@ -15043,7 +15101,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aa99d1b0-1256-4fb6-8773-a406ff9da7c0")
+			(uuid "0d1f1899-d6f0-44fc-b68b-0c98137b76f8")
 		)
 		(fp_line
 			(start 9 9)
@@ -15053,7 +15111,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7c0bfbbf-a7d3-4abe-93bc-6d60b86d203a")
+			(uuid "179d4a68-2e98-4b19-9aa6-c5a0a6172a6c")
 		)
 		(fp_line
 			(start 9 9.75)
@@ -15063,7 +15121,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "e992e28e-cd3a-47c5-b8fc-e7bc9ccc7972")
+			(uuid "107ca1d6-16f4-48be-a5d9-aefa5304a105")
 		)
 		(fp_line
 			(start -9 -15.75)
@@ -15073,7 +15131,7 @@
 				(type solid)
 			)
 			(layer "Eco2.User")
-			(uuid "ac53e7a6-990f-432f-8180-59a950150eba")
+			(uuid "656e4c21-de97-4af6-a9c6-13a1f9907eb3")
 		)
 		(fp_line
 			(start -9 -9.81)
@@ -15083,7 +15141,7 @@
 				(type solid)
 			)
 			(layer "Eco2.User")
-			(uuid "aa09db74-7a72-4f41-b72c-be5ab83d49e9")
+			(uuid "e03d838e-e3f4-47b7-8905-004cdac70281")
 		)
 		(fp_line
 			(start -9 9.75)
@@ -15093,7 +15151,7 @@
 				(type solid)
 			)
 			(layer "Eco2.User")
-			(uuid "bed58d03-ab21-4d10-b7cd-cd12ad4289b4")
+			(uuid "20526c73-89b8-4005-8c6b-c5f4b2362c94")
 		)
 		(fp_line
 			(start 9 -15.75)
@@ -15103,7 +15161,7 @@
 				(type solid)
 			)
 			(layer "Eco2.User")
-			(uuid "19dbc478-4060-4c53-8d50-13f738cc596c")
+			(uuid "d47dddaf-33d1-4935-b065-f5683ce65f81")
 		)
 		(fp_line
 			(start 9 9.75)
@@ -15113,7 +15171,7 @@
 				(type solid)
 			)
 			(layer "Eco2.User")
-			(uuid "2890b1d0-dbbd-4b9e-945d-100eaca48ae5")
+			(uuid "2c1bfec4-47b3-4ccb-b5fd-d03fc34e7bd8")
 		)
 		(fp_line
 			(start -9.8 -16.05)
@@ -15123,7 +15181,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "a992d442-ae45-417a-83be-5fd3776968cc")
+			(uuid "0ed8324a-38fc-440b-9125-479a715e072d")
 		)
 		(fp_line
 			(start -9.8 10.55)
@@ -15133,7 +15191,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "22b70a96-bad5-47ab-8bb4-e48eb1c7d5fd")
+			(uuid "670dde23-652c-4b05-bf45-4d2bf357a1b9")
 		)
 		(fp_line
 			(start 9.8 -16.05)
@@ -15143,7 +15201,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "754c0d96-270c-4ce6-b203-ad208d45a2c0")
+			(uuid "b39f6f5a-5067-476d-a3d2-e3d186adf9a1")
 		)
 		(fp_line
 			(start 9.8 -16.05)
@@ -15153,7 +15211,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "d69087b4-0f26-44b2-bbe1-e17681965991")
+			(uuid "2f69776c-6f30-4da5-bb3d-72efc351f649")
 		)
 		(fp_text user "Antenna Area"
 			(at 0 -12.75 0)
@@ -15230,7 +15288,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 59 "unconnected-(M1-GPIO5{slash}TOUCH5{slash}ADC1_CH4-Pad5)")
 			(pinfunction "GPIO5/TOUCH5/ADC1_CH4")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3a7ab693-732d-461d-9fd9-b4f543e50c1d")
 		)
 		(pad "6" smd rect
@@ -15239,7 +15297,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 60 "unconnected-(M1-GPIO6{slash}TOUCH6{slash}ADC1_CH5-Pad6)")
 			(pinfunction "GPIO6/TOUCH6/ADC1_CH5")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6ad999dc-a007-4fda-bf56-14eb7754e39a")
 		)
 		(pad "7" smd rect
@@ -15248,7 +15306,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 61 "unconnected-(M1-GPIO7{slash}TOUCH7{slash}ADC1_CH6-Pad7)")
 			(pinfunction "GPIO7/TOUCH7/ADC1_CH6")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a3a1f779-61e4-4f48-b4d6-f93bf9405d5a")
 		)
 		(pad "8" smd rect
@@ -15257,7 +15315,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 62 "unconnected-(M1-GPIO15{slash}U0RTS{slash}ADC2_CH4{slash}XTAL_32K_P-Pad8)")
 			(pinfunction "GPIO15/U0RTS/ADC2_CH4/XTAL_32K_P")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c4810ec2-d648-4260-9cc3-282c07134b3a")
 		)
 		(pad "9" smd rect
@@ -15284,7 +15342,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 63 "unconnected-(M1-GPIO18{slash}U1RXD{slash}ADC2_CH7{slash}CLK_OUT3-Pad11)")
 			(pinfunction "GPIO18/U1RXD/ADC2_CH7/CLK_OUT3")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a0528757-a1d3-460b-856b-ad0280d03dcd")
 		)
 		(pad "12" smd rect
@@ -15293,7 +15351,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 64 "unconnected-(M1-GPIO8{slash}TOUCH8{slash}ADC1_CH7{slash}SUBSPICS1-Pad12)")
 			(pinfunction "GPIO8/TOUCH8/ADC1_CH7/SUBSPICS1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "ff6007ef-a199-4caf-8c98-5798d5750537")
 		)
 		(pad "13" smd rect
@@ -15338,7 +15396,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 66 "unconnected-(M1-GPIO9{slash}TOUCH9{slash}ADC1_CH8{slash}FSPIHD{slash}SUBSPIHD-Pad17)")
 			(pinfunction "GPIO9/TOUCH9/ADC1_CH8/FSPIHD/SUBSPIHD")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "6617bc09-691b-4e79-9890-731233d18dfb")
 		)
 		(pad "18" smd rect
@@ -15347,7 +15405,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 67 "unconnected-(M1-GPIO10{slash}TOUCH10{slash}ADC1_CH9{slash}FSPICS0{slash}FSPIIO4{slash}SUBSPICS0-Pad18)")
 			(pinfunction "GPIO10/TOUCH10/ADC1_CH9/FSPICS0/FSPIIO4/SUBSPICS0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3ff7e727-ed05-4529-a392-b0492df54d64")
 		)
 		(pad "19" smd rect
@@ -15356,7 +15414,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 68 "unconnected-(M1-GPIO11{slash}TOUCH11{slash}ADC2_CH0{slash}FSPID{slash}FSPIIO5{slash}SUBSPID-Pad19)")
 			(pinfunction "GPIO11/TOUCH11/ADC2_CH0/FSPID/FSPIIO5/SUBSPID")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "fdb465ea-1432-4c86-8241-d21f0cae7d21")
 		)
 		(pad "20" smd rect
@@ -15365,7 +15423,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 69 "unconnected-(M1-GPIO12{slash}TOUCH12{slash}ADC2_CH1{slash}FSPICLK{slash}FSPIIO6{slash}SUBSPICLK-Pad20)")
 			(pinfunction "GPIO12/TOUCH12/ADC2_CH1/FSPICLK/FSPIIO6/SUBSPICLK")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "a2fe4060-f5d4-4fe4-b412-5e8e4395850c")
 		)
 		(pad "21" smd rect
@@ -15374,7 +15432,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 70 "unconnected-(M1-GPIO13{slash}TOUCH13{slash}ADC2_CH2{slash}FSPIQ{slash}FSPIIO7{slash}SUBSPIQ-Pad21)")
 			(pinfunction "GPIO13/TOUCH13/ADC2_CH2/FSPIQ/FSPIIO7/SUBSPIQ")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "5f468fab-a05b-418f-895a-f1c76516b398")
 		)
 		(pad "22" smd rect
@@ -15392,7 +15450,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 71 "unconnected-(M1-GPIO21-Pad23)")
 			(pinfunction "GPIO21")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "c64e8494-a873-4b74-8bea-4a3240da57c5")
 		)
 		(pad "24" smd rect
@@ -15401,7 +15459,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 72 "unconnected-(M1-GPIO47{slash}SPICLK_P{slash}SUBSPICLK_P_DIFF-Pad24)")
 			(pinfunction "GPIO47/SPICLK_P/SUBSPICLK_P_DIFF")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "eaafa186-bddb-4d91-8ca2-38c401672d37")
 		)
 		(pad "25" smd rect
@@ -15410,7 +15468,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 73 "unconnected-(M1-GPIO48{slash}SPICLK_N{slash}SUBSPICLK_N_DIFF-Pad25)")
 			(pinfunction "GPIO48/SPICLK_N/SUBSPICLK_N_DIFF")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "214b232f-2dd2-4c2c-af43-5ac39e498032")
 		)
 		(pad "26" smd rect
@@ -15464,7 +15522,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 79 "unconnected-(M1-GPIO38{slash}FSPIWP{slash}SUBSPIWP-Pad31)")
 			(pinfunction "GPIO38/FSPIWP/SUBSPIWP")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "f9043203-ccb8-4140-a566-58ccf7a6be82")
 		)
 		(pad "32" smd rect
@@ -15473,7 +15531,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 80 "unconnected-(M1-MTCK{slash}GPIO39{slash}CLK_OUT3{slash}SUBSPICS1-Pad32)")
 			(pinfunction "MTCK/GPIO39/CLK_OUT3/SUBSPICS1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "38f7d4bc-da5b-4e37-800a-99f4195d7c45")
 		)
 		(pad "33" smd rect
@@ -15482,7 +15540,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 81 "unconnected-(M1-MTDO{slash}GPIO40{slash}CLK_OUT2-Pad33)")
 			(pinfunction "MTDO/GPIO40/CLK_OUT2")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "3fb33f1c-dbd6-43eb-b131-e1d5461df9f6")
 		)
 		(pad "34" smd rect
@@ -15491,7 +15549,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 82 "unconnected-(M1-MTDI{slash}GPIO41{slash}CLK_OUT1-Pad34)")
 			(pinfunction "MTDI/GPIO41/CLK_OUT1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "e2021947-da69-4792-b677-a2742d2f27c5")
 		)
 		(pad "35" smd rect
@@ -15500,7 +15558,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 83 "unconnected-(M1-MTMS{slash}GPIO42-Pad35)")
 			(pinfunction "MTMS/GPIO42")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "227cdabd-2ca0-4f60-bf18-42ee92ff4598")
 		)
 		(pad "36" smd rect
@@ -15527,7 +15585,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 84 "unconnected-(M1-GPIO2{slash}TOUCH2{slash}ADC1_CH1-Pad38)")
 			(pinfunction "GPIO2/TOUCH2/ADC1_CH1")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "91ee4b6b-5bfc-4f59-a14c-d1965dd732b0")
 		)
 		(pad "39" smd rect
@@ -15536,7 +15594,7 @@
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(net 85 "unconnected-(M1-GPIO1{slash}TOUCH1{slash}ADC1_CH0-Pad39)")
 			(pinfunction "GPIO1/TOUCH1/ADC1_CH0")
-			(pintype "bidirectional")
+			(pintype "bidirectional+no_connect")
 			(uuid "df83ecab-2687-44b0-8ec0-740baeb670cd")
 		)
 		(pad "40" smd rect
@@ -15564,7 +15622,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "d18b430a-2bc6-40bf-aeca-d2fff47b2dff")
+			(uuid "91fb29ec-54b8-46ad-ba4c-25142b020211")
 		)
 		(pad "41" smd rect
 			(at -2.9 0.86 180)
@@ -15573,7 +15631,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a03d9c79-add0-4949-8ae0-6fbf6c0cad43")
+			(uuid "0af79433-f18c-4f21-822c-cefd3c358af9")
 		)
 		(pad "41" smd rect
 			(at -2.9 0.86 180)
@@ -15582,7 +15640,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "e822de3f-7c4b-422f-9638-76de36f1a12a")
+			(uuid "5424eb08-d066-4d82-9375-2d1655c7ba77")
 		)
 		(pad "41" smd rect
 			(at -1.5 -1.94 180)
@@ -15591,7 +15649,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "c208c975-fded-49d9-911f-f18bd9009fcf")
+			(uuid "a7c9dbce-2ae6-4ebd-b12c-8c1fdbf63bf6")
 		)
 		(pad "41" smd rect
 			(at -1.5 -1.94 180)
@@ -15600,7 +15658,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ffa9ccee-8214-4fec-b84c-1e259b69ec9e")
+			(uuid "ca2103d7-29a2-470c-9529-391f0ab88267")
 		)
 		(pad "41" smd rect
 			(at -1.5 -0.54 180)
@@ -15609,7 +15667,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a85402e5-6e62-4eaa-9f67-a5f2fdffd38f")
+			(uuid "6b3f77b6-9e33-481e-8acd-0cf15d65c122")
 		)
 		(pad "41" smd rect
 			(at -1.5 0.86 180)
@@ -15618,7 +15676,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "7124cf62-be0a-4488-8f87-0dadb5edc5cd")
+			(uuid "5ab0f56d-d9b8-4b40-a99b-cf7a65d7d97e")
 		)
 		(pad "41" smd rect
 			(at -0.1 -1.94 180)
@@ -15627,7 +15685,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a39380f3-37f4-467a-b514-bd86177c2bbe")
+			(uuid "58a9ed82-b836-4d9f-9853-030633f3e741")
 		)
 		(pad "41" smd rect
 			(at -0.1 -0.54 180)
@@ -15636,7 +15694,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "93478acf-9aa7-4782-996c-cd580d9a0df6")
+			(uuid "9d627a5e-c39a-4cc1-b17d-7f6511ed743a")
 		)
 		(pad "41" smd rect
 			(at -0.1 0.86 180)
@@ -15645,13 +15703,13 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "93488bcf-fc5c-4586-9c96-bd83770adfa7")
+			(uuid "0ef32c12-db25-4e3e-9e0b-f27f2cea0c24")
 		)
 		(zone
 			(net 0)
 			(net_name "")
 			(layers "F.Cu" "B.Cu")
-			(uuid "2b61411b-aafd-4926-8a2a-8016ece74c30")
+			(uuid "814b6d5e-02ee-4216-a1a6-c485ec1c705d")
 			(name "antenna keepout")
 			(hatch edge 0.508)
 			(connect_pads
@@ -15693,6 +15751,17 @@
 				(xyz 0 0 0)
 			)
 		)
+		(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-S3-WROOM-1.step"
+			(offset
+				(xyz 0 3 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
@@ -15722,7 +15791,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15734,7 +15803,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15746,8 +15815,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/b350fd92-c4f2-4e42-8fcf-26ef8a07b803")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -15920,7 +15990,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15932,7 +16002,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -15944,8 +16014,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/819d8261-a15e-4f19-b647-dd2eaa048490")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16118,7 +16189,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16130,7 +16201,7 @@
 				)
 			)
 		)
-		(property "Description" "Crystal speaker/transducer"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -16143,7 +16214,7 @@
 			)
 		)
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/13eaa9a1-8e47-4b6f-904f-3dc4aab7bed4")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16456,7 +16527,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16468,7 +16539,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16480,8 +16551,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/f44baba8-9cd1-4b49-865b-37bbe1bf487f")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -16654,7 +16726,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16666,7 +16738,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -16679,7 +16751,7 @@
 			)
 		)
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/617bb81b-b93f-4e0a-9d79-f95df6c09a9f")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17221,7 +17293,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17233,7 +17305,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17245,8 +17317,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/916309b5-2796-48da-90e9-81609164ce08")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17419,7 +17492,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17431,7 +17504,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -17443,8 +17516,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/3d114f4e-2007-47a8-b67e-79cc9ecaa5e7")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17617,7 +17691,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17629,7 +17703,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -17641,8 +17715,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/514a4235-ca29-4bd7-9c7d-3d8f2033f686")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -17815,7 +17890,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17827,7 +17902,7 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17839,8 +17914,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/64d34606-29c3-4d0d-8037-9a5f8ca4a13f")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18035,7 +18111,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18047,7 +18123,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18059,8 +18135,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/99819d0b-6c06-404c-a941-8d2be23d13ae")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18233,7 +18310,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -18245,7 +18322,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -18257,8 +18334,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/97171742-9dee-42d2-b6d7-90424ede10c5")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18431,7 +18509,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18443,7 +18521,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18455,8 +18533,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/c3ae6dea-cfc0-45e1-8b11-0bedeca054f4")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18629,7 +18708,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18641,7 +18720,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -18653,8 +18732,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/ed86bcd4-b92f-4d13-a2eb-0ce09593ecba")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -18827,7 +18907,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18839,7 +18919,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -18851,8 +18931,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/9b9ce838-5d1a-430e-a926-e526675db633")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19025,7 +19106,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tcan337.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19037,7 +19118,7 @@
 				)
 			)
 		)
-		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, SOT-23-8/SOIC-8"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19049,8 +19130,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*TSOT?23* *SOIC*3.9x4.9mm*P1.27mm*")
 		(path "/9b168e22-d30e-48d8-9f3f-a35a12f2603c/7764f31f-51a9-4f7b-8b49-f5b9020337fc")
-		(sheetname "MCU")
+		(sheetname "/MCU/")
 		(sheetfile "mcu.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19315,7 +19397,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19327,7 +19409,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19339,8 +19421,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/bc7d88d0-dc01-478a-b6b3-1af55bd59e06")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19513,7 +19596,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19525,7 +19608,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19537,8 +19620,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/04eae0a5-c234-4921-8763-3cbc7864bb5b")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19711,7 +19795,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19723,7 +19807,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -19735,8 +19819,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/9ebb74bc-4676-4221-a305-36c5b5f1a32d")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -19909,7 +19994,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -19921,7 +20006,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -19933,8 +20018,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/cb924086-4086-435b-aa2a-4e09c501c31e")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20107,7 +20193,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20119,7 +20205,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20131,8 +20217,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/2d16f323-ea20-4449-8a68-9ea51fec38b1")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20305,7 +20392,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20317,7 +20404,7 @@
 				)
 			)
 		)
-		(property "Description" "Fuse"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20329,8 +20416,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "*Fuse*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/85467823-e0a2-4914-9714-2a37672fe688")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr through_hole)
 		(fp_line
@@ -20545,7 +20633,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20557,7 +20645,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20569,8 +20657,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/bfe29d47-cc05-4b90-ade3-bef03bf067c6")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20743,7 +20832,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20755,7 +20844,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -20767,8 +20856,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/4b30e83b-5708-4ff9-9d32-33e861292d92")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -20941,7 +21031,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20953,7 +21043,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -20965,8 +21055,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/a1d0034d-bdfa-40e2-9dea-684672d18035")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21139,7 +21230,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -21151,7 +21242,7 @@
 				)
 			)
 		)
-		(property "Description" "Polarized capacitor"
+		(property "Description" ""
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -21163,8 +21254,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "CP_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/eb88deb9-a0da-4701-a717-c864d99c9a9e")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21568,7 +21660,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21580,7 +21672,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -21592,8 +21684,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/189f3065-00e9-49a3-bc98-78c17ef27835/2de7b1b6-2099-4209-a455-57b5bfdbda5e")
-		(sheetname "Power")
+		(sheetname "/Power/")
 		(sheetfile "power.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -21766,7 +21859,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21778,7 +21871,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21790,8 +21883,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "R_*")
 		(path "/8b96c421-2613-4742-9a62-4a4717ed27b8/32c4c9e8-4d42-479e-9098-b0494da2db43")
-		(sheetname "Hub")
+		(sheetname "/Hub/")
 		(sheetfile "hub.kicad_sch")
 		(attr smd)
 		(fp_line
